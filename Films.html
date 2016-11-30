@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
+	<!-- Bootstrap -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- CSS file and Animate.css -->
+<link rel="stylesheet" type="text/css" href="FilmsCSS.css">
+<link rel="stylesheet" type="text/css" href="animate.css">   
+     <!-- CSS file and Animate.css -->
+<script src="jquery-1.11.3.min.js"></script>
+    <!-----Wow.js library--->
+<script src="wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
+</head>
+
+  <body>
+  <div class="container flash animated">
+      <a href="index.html"><img alt="Header" src="Pictures/Header_22_films.png"/></a>
+  </div>
+<!-- nav menu -->
+  <div class="container">
+      <nav class="navbar navbar-default" role="navigation">
+  <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="Films.html">FILMS</a></li>
+        <li><a href="Timetable.html">TIMETABLE</a></li>
+        <li><a href="Cinema.html">CINEMAS</a></li> 
+          <!----search option--->
+        <form class="navbar-form navbar-right" role="search">
+          <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Search</button>
+        </form>
+       </ul>    
+       </div>
+   </nav>
+   </div>
+<!---Animation of films' pictures by Wow.js and Animate.css--->
+<div class="container">
+<!-- First films -->
+<h1 class="wow fadeInLeft">The Walk<button type="button" class="btn btn-info btn-lg"  data-toggle="modal" data-target="#myModal" style="float:right">Book now</button></h1>
+ <img class="wow fadeInLeft" data-wow-offset="50"  src="Films/Walk.jpg" alt="car">
+<!-- Second film -->
+ <h1 class="wow fadeInLeft" data-wow-offset="150" >Pawn Sacrific<button type="button" class="btn btn-info btn-lg"  data-toggle="modal" data-target="#myModal" style="float:right">Book now</button></h1>
+ <img class="wow fadeInLeft" data-wow-offset="150"  src="Films/PawnSarcrifice.jpg" alt="car">
+<!--Third film-->
+<h1 class="wow fadeInLeft" data-wow-offset="200">Spectre 007<button type="button" class="btn btn-info btn-lg"  data-toggle="modal" data-target="#myModal" style="float:right">Book now</button></h1>
+ <img class="wow fadeInLeft" data-wow-offset="200"  src="Films/Spectre.jpg" alt="car" >
+<!-- Fourth film -->
+<h1 class="wow fadeInLeft" data-wow-offset="200">The Hunger Games.Mockingjay.Part 2<button type="button" class="btn btn-info btn-lg"  data-toggle="modal" data-target="#myModal" style="float:right">Book now</button></h1>
+ <img class="wow fadeInLeft" data-wow-offset="200"  src="Films/Mockingjay.jpg" alt="car" >
+<!-- Film 5-->
+<h1 class="wow fadeInLeft" data-wow-offset="200">Black Mass<button type="button" class="btn btn-info btn-lg"  data-toggle="modal" data-target="#myModal" style="float:right">Book now</button></h1>
+ <img class="wow fadeInLeft" data-wow-offset="200"  src="Films/BlackMass.jpg" alt="car" >
+<!-- Film 6 -->
+<h1 class="wow fadeInLeft" data-wow-offset="200">Everest<button type="button" class="btn btn-info btn-lg"  data-toggle="modal" data-target="#myModal" style="float:right">Book now</button></h1>
+ <img class="wow fadeInLeft" data-wow-offset="200"  src="Films/everest.jpg" alt="car" >
+<!-- Film 7 -->
+<h1 class="wow fadeInLeft" data-wow-offset="200">Bridge of Spies<button type="button" class="btn btn-info btn-lg"  data-toggle="modal" data-target="#myModal" style="float:right">Book now</button></h1>
+ <img class="wow fadeInLeft" data-wow-offset="200"  src="Films/Bridge.jpg" alt="car" >
+<!-- Film 8 -->
+<h1 class="wow fadeInLeft" data-wow-offset="200">Avangers 2<button type="button" class="btn btn-info btn-lg"  data-toggle="modal" data-target="#myModal" style="float:right">Book now</button></h1>
+ <img class="wow fadeInLeft" data-wow-offset="200"  src="Films/Avangers.jpg" alt="car" >
+<!-- Film 9-->
+<h1 class="wow fadeInLeft" data-wow-offset="200">Inside Out<button type="button" class="btn btn-info btn-lg"  data-toggle="modal" data-target="#myModal" style="float:right">Book now</button></h1>
+ <img class="wow fadeInLeft" data-wow-offset="200"  src="Films/Inside.jpg" alt="car" >
+</div>
+
+
+<!-- Modal activated by all bottons "Book now" -->
+<div id="myModal" class="modal fade" role="dialog">
+<div class="modal-dialog">
+   <!-- Modal content-->
+   <div class="modal-content">
+     <div class="modal-header">
+       <button type="button" class="close" data-dismiss="modal">&times;</button>
+       <h2>Booking System NorthKino</h2>
+     </div>
+     <div class="modal-body">
+       <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">Helsinki</a></li>
+        <li><a data-toggle="tab" href="#menu1">Turku</a></li>
+        <li><a data-toggle="tab" href="#menu2">Tampere</a></li>
+        <li><a data-toggle="tab" href="#menu3">Oulu</a></li>
+        <li><a data-toggle="tab" href="#menu4">Rovaniemi</a></li>
+       </ul>
+     <div class="tab-content">
+       <div id="home" class="tab-pane fade in active">
+         <p><form action="">
+         <form class="form-horizontal">
+         <fieldset>
+         <legend>Book a ticket</legend>
+         <div class="form-group">
+           <label for="select" class="col-lg-2 control-label">Choose Date</label>
+           <div class="col-lg-10">
+              <select class="form-control" id="select">
+              <option>01.12</option>
+              <option>02.12</option>
+              <option>03.12</option>
+              <option>04.12</option>
+              <option>05.12</option>
+              <option>06.12</option>
+              <option>07.12</option>
+              <option>08.12</option>
+              <option>09.12</option>
+              <option>10.12</option>
+              <option>11.12</option>
+              <option>12.12</option>
+              <option>13.12</option>
+              </select>
+         </div>
+         </div>
+ <br>  
+ <br>
+         <div class="form-group">
+           <label class="col-lg-2 control-label">Choose Time</label>
+        <div class="col-lg-2 control-label">
+          <div class="radio">
+            <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1"
+            checked="">10:00
+            </label>
+            </div>
+          <div class="radio">
+            <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">13:15
+            </label>
+            </div>
+          <div class="radio">
+            <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">19:30
+            </label>
+            </div>
+          <div class="radio">
+            <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">21:00
+            </label>
+          </div>   
+         </div>
+         </div>
+    <img src="Pictures/2.gif" alt="Hall" width="570" height="330" style="float:center">
+        <div class="form-group">
+         <label for="select" class="col-lg-2 control-label">Row</label>
+         <div class="col-lg-10">
+        <select class="form-control" id="select">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>             
+        </select>
+           </div>
+        <br>
+        <label class="col-lg-2 control-label">Place</label>
+        <select multiple="" class="form-control">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+          <option>13</option>
+          <option>14</option>
+          <option>15</option>
+          <option>16</option>
+          <option>17</option>
+          <option>18</option>
+          <option>19</option>
+          <option>20</option> 
+        </select>
+      </div>
+    </div>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" >Submit</button>
+      </div>
+    </div>
+<br>
+  </fieldset>
+</form>
+</p>
+  </div>
+</div>
+  <div id="menu1" class="tab-pane fade">
+  </div>
+  <div id="menu2" class="tab-pane fade"> 
+  </div>
+<div id="menu3" class="tab-pane fade">
+  </div>
+<div id="menu4" class="tab-pane fade">
+  </div>
+      
+     </div>
+   </div>
+</div>
+
+</body>
+</html>

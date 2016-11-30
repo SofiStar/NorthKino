@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
+	<!-- Bootstrap -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet"       href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ <!-- CSS file and Animate.css -->
+<link rel="stylesheet" type="text/css" href="CinemaCSS.css">
+<link rel="stylesheet" type="text/css" href="animate.css">   
+  <!-- JQuery -->
+<script src="wow.min.js"></script>
+   <!-- Wow.js -->
+<script>
+new WOW().init();
+</script>
+  <!-- JQuery panel properties -->
+ <style>
+  body {
+      position: relative; 
+  }
+  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+  </style>
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+ <div class="container flash animated">
+<a href="index.html"><img alt="Header" src="Pictures/Header_22_cinema.png"/></a>
+</div>
+ <!-- nav menu -->
+<div class="container">
+<nav class="navbar navbar-default" >
+  <!-- Collect the nav links, forms, and other content for toggling.
+       Also I add data-wow-delay property to make the appearance of the panels more smooth -->
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+      <li ><a href="Films.html">FILMS</a></li>
+      <li><a href="Timetable.html">TIMETABLE</a></li>
+      <li class="active"><a href="Cinema.html">CINEMAS</a></li> 
+    <!-- Search option -->
+        <form class="navbar-form navbar-right" role="search">
+         <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+         </div>
+          <button type="submit" class="btn btn-default">Search</button></form>
+    </ul>    
+  </div>
+</nav>
+ <!-- JQuery panels with cities +buttons to Timetable -->
+ <div class="wow bounceIn"  data-wow-delay= "1s">
+ 
+ <br>
+  <script> 
+   $(document).ready(function(){
+   $("#flip").click(function(){
+   $("#panel").slideToggle("normal");
+   });
+   });
+  </script>
+<div id="flip"><img src="Pictures/Helsinki11.jpg"></div>
+<div id="panel">
+<p>
+Kaisaniemenkatu 2, 
+00100 Helsinki
+</p>
+<p>
+Helsinki NorthKino was opened in autumn 1998, and at the time it was the first multiplex cinema in Finland with its 10 high quality auditoriums.
+
+The first cinema at NorthKino's location opened in 1939: NorthKino was a 1000-seat theater and for a long time the largest one in Helsinki. The theater's name changed over the years, first to Boston and then Formia. In the early 1980's the large theater auditorium was split into four smaller ones.Now there are 4 halls.
+</p>
+<br>
+<ul>Working Hours
+<li>Ti 7–21</li>
+<li>Ke 7–21</li>
+<li>To 7–21</li>
+<li>Pe 7–21</li>
+<li>La 7–18</li>
+<li>Su 12–21</li>
+</ul>
+<button  type="button" class="btn btn-success"><a href="Timetable.html">Timetable</a></button>
+</div>
+</div>
+
+<div class="wow bounceIn" data-wow-delay= "1.2s">
+<br>
+<script> 
+$(document).ready(function(){
+    $("#flip1").click(function(){
+        $("#panel1").slideToggle("normal");
+    });
+    });
+</script>
+<div id="flip1"><img src="Pictures/Turku11.jpg"></div>
+<div id="panel1">
+<p>
+Hatanpään Valtatie 1,
+33100 Tampere
+</p>
+<p>
+Helsinki NorthKino was opened in autumn 1998, and at the time it was the first multiplex cinema in Finland with its 10 high quality auditoriums.
+
+The first cinema at NorthKino's location opened in 1939: NorthKino was a 1000-seat theater and for a long time the largest one in Helsinki. The theater's name changed over the years, first to Boston and then Formia. In the early 1980's the large theater auditorium was split into four smaller ones.Now there are 4 halls.
+</p>
+<br>
+<ul>Working Hours
+<li>Ti 7–21</li>
+<li>Ke 7–21</li>
+<li>To 7–21</li>
+<li>Pe 7–21</li>
+<li>La 7–18</li>
+<li>Su 12–21</li>
+</ul>
+<button  type="button" class="btn btn-success"><a href="Timetable.html">Timetable</a></button>
+</div>
+</div>
+
+
+<div class="wow bounceIn">
+<br>
+<script> 
+$(document).ready(function(){
+    $("#flip2").click(function(){
+        $("#panel2").slideToggle("normal");
+    });
+    });
+</script>
+<div id="flip2"><img src="Pictures/Tampere11.jpg"></div>
+<div id="panel2">
+<p>
+Kauppiaskatu 11,
+20100 Tampere
+</p>
+<p>
+Helsinki NorthKino was opened in autumn 1998, and at the time it was the first multiplex cinema in Finland with its 10 high quality auditoriums.
+
+The first cinema at NorthKino's location opened in 1939: NorthKino was a 1000-seat theater and for a long time the largest one in Helsinki. The theater's name changed over the years, first to Boston and then Formia. In the early 1980's the large theater auditorium was split into four smaller ones.Now there are 4 halls.
+</p>
+<br>
+<ul>Working Hours
+<li>Ti 7–21</li>
+<li>Ke 7–21</li>
+<li>To 7–21</li>
+<li>Pe 7–21</li>
+<li>La 7–18</li>
+<li>Su 12–21</li>
+</ul>
+<button  type="button" class="btn btn-success"><a href="Timetable.html">Timetable</a></button>
+</div>
+</div>
+
+
+<div class="wow bounceIn">
+<br>
+<script> 
+$(document).ready(function(){
+    $("#flip3").click(function(){
+        $("#panel3").slideToggle("normal");
+    });
+    });
+</script>
+<div id="flip3"><img src="Pictures/Oulu11.jpg"></div>
+<div id="panel3">
+<p>
+Torikatu 32, 
+90100 Oulu
+</p>
+<p>
+Helsinki NorthKino was opened in autumn 1998, and at the time it was the first multiplex cinema in Finland with its 10 high quality auditoriums.
+
+The first cinema at NorthKino's location opened in 1939: NorthKino was a 1000-seat theater and for a long time the largest one in Helsinki. The theater's name changed over the years, first to Boston and then Formia. In the early 1980's the large theater auditorium was split into four smaller ones.Now there are 4 halls.
+</p>
+<br>
+<ul>Working Hours
+<li>Ti 7–21</li>
+<li>Ke 7–21</li>
+<li>To 7–21</li>
+<li>Pe 7–21</li>
+<li>La 7–18</li>
+<li>Su 12–21</li>
+</ul>
+<button  type="button" class="btn btn-success"><a href="Timetable.html">Timetable</a></button>
+</div>
+</div>
+
+
+<div class="wow bounceIn">
+
+<br>
+<script> 
+$(document).ready(function(){
+    $("#flip4").click(function(){
+        $("#panel4").slideToggle("normal");
+    });
+    });
+</script>
+<div id="flip4"><img src="Pictures/Rovaniemi11.jpg"></div>
+<div id="panel4">
+<p>
+Torikatu 32,
+90100 Rovaniemi
+</p>
+<p>
+Helsinki NorthKino was opened in autumn 1998, and at the time it was the first multiplex cinema in Finland with its 10 high quality auditoriums.
+
+The first cinema at NorthKino's location opened in 1939: NorthKino was a 1000-seat theater and for a long time the largest one in Helsinki. The theater's name changed over the years, first to Boston and then Formia. In the early 1980's the large theater auditorium was split into four smaller ones. Now there are 4 halls.
+</p>
+<br>
+<ul>Working Hours
+<li>Ti 7–21</li>
+<li>Ke 7–21</li>
+<li>To 7–21</li>
+<li>Pe 7–21</li>
+<li>La 7–18</li>
+<li>Su 12–21</li>
+</ul>
+<button type="button" class="btn btn-success"><a href="Timetable.html">Timetable</a></button>
+</div>
+</div>
+
+<br>
+</body>
+</html>

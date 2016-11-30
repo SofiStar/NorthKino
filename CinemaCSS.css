@@ -1,0 +1,58 @@
+body
+{
+background-image: url(Pictures/popcorn_blue1.jpg);
+}
+.navbar
+{ 
+    border: 5px;     
+    border-color: #5e77ba;
+    font-size: 15pt;
+    color: #5e77ba;
+
+}
+.navbar ul li
+{
+    padding-right: 80px;
+    padding-left: 80px;    
+}
+
+#panel
+{   
+    color: white;
+    background-color: #5772b9;
+    padding: 50px;
+    display: none;
+}
+
+
+#panel1 { 
+    color: white;
+    background-color: #5772b9;
+    padding: 50px;
+    display: none;
+}
+
+
+#panel2 { 
+    color: white;
+    padding: 50px;
+    display: none;
+    background-color: #5772b9;
+}
+
+
+
+#panel3 { 
+    color: white;
+    padding: 50px;
+    display: none;
+    background-color: #5772b9;
+}
+
+
+#panel4 {
+    color: white;
+    padding: 50px;
+    display: none;
+    background-color: #5772b9;
+}
